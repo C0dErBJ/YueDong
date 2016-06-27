@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="56dp"
+              android:background="@color/defaultBackgroud"
+              android:paddingLeft="8dp">
+    <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:id="@+id/mesavator"/>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:orientation="vertical">
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:layout_marginTop="4dp"
+                android:text="测试"
+                android:textColor="@color/primaryText"
+                android:textSize="18sp"
+                android:id="@+id/msgnickname"
+                android:gravity="center_vertical"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:layout_marginBottom="4dp"
+                android:id="@+id/msganswer"
+                android:text="回答"
+                android:gravity="center_vertical"/>
+    </LinearLayout>
+</LinearLayout>

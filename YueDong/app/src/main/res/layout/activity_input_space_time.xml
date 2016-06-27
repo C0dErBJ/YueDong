@@ -1,0 +1,449 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/defaultBackgroud"
+              android:orientation="vertical"
+              tools:context="com.yuedong.app.activity.InputSpaceTimeActivity">
+    <include
+            android:layout_height="56dp"
+            android:layout_width="match_parent"
+            layout="@layout/layout_title"
+            android:id="@+id/nicknametitle" android:contentDescription="unchecked"/>
+
+    <View
+            android:background="@color/black2"
+            android:layout_width="fill_parent"
+            android:layout_height="48px"
+            android:id="@+id/divide" android:contentDescription="unchecked"/>
+
+    <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="*"
+            android:id="@+id/table">
+        <TableRow
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                >
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="2"
+                      android:text=""
+                      android:gravity="center"
+                      android:background="@drawable/whitebox" android:contentDescription="unchecked"/>
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:text="周一"
+                      android:gravity="center"
+                      android:background="@drawable/whitebox" android:contentDescription="unchecked"/>
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:text="周二"
+                      android:gravity="center"
+                      android:background="@drawable/whitebox" android:contentDescription="unchecked"/>
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:text="周三"
+                      android:gravity="center"
+                      android:background="@drawable/whitebox" android:contentDescription="unchecked"/>
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:text="周四"
+                      android:gravity="center"
+                      android:background="@drawable/whitebox" android:contentDescription="unchecked"/>
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:text="周五"
+                      android:gravity="center"
+                      android:background="@drawable/whitebox" android:contentDescription="unchecked"/>
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:text="周六"
+                      android:gravity="center"
+                      android:background="@drawable/whitebox" android:contentDescription="unchecked"/>
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:text="周日"
+                      android:gravity="center"
+                      android:background="@drawable/whitebox" android:contentDescription="unchecked"/>
+
+        </TableRow>
+        <TableRow
+                android:layout_height="match_parent"
+                android:layout_width="match_parent">
+
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="2"
+                      android:text="6:00-8:00"
+                      android:gravity="center"
+                      android:background="@drawable/whitebox" android:contentDescription="unchecked"/>
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:text="测试"
+                      android:gravity="center"
+                      android:id="@+id/time1"
+                      android:background="@drawable/redbox" android:contentDescription="unchecked"/>
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:text="测试"
+                      android:id="@+id/time2"
+                      android:gravity="center"
+                      android:background="@drawable/redbox" android:contentDescription="unchecked"/>
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:text="测试"
+                      android:gravity="center"
+                      android:id="@+id/time3"
+                      android:background="@drawable/redbox" android:contentDescription="unchecked"/>
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:text="测试"
+                      android:gravity="center"
+                      android:id="@+id/time4"
+                      android:background="@drawable/redbox" android:contentDescription="unchecked"/>
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:text="测试"
+                      android:gravity="center"
+                      android:id="@+id/time5"
+                      android:background="@drawable/redbox" android:contentDescription="unchecked"/>
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:text="测试"
+                      android:gravity="center"
+                      android:id="@+id/time6"
+                      android:background="@drawable/redbox" android:contentDescription="unchecked"/>
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:text="测试"
+                      android:gravity="center"
+                      android:id="@+id/time7"
+                      android:background="@drawable/redbox" android:contentDescription="unchecked"/>
+
+        </TableRow>
+        <TableRow
+                android:layout_height="match_parent"
+                android:layout_width="match_parent">
+
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="2"
+                      android:text="8:00-12:00"
+                      android:gravity="center"
+                      android:background="@drawable/whitebox" android:contentDescription="unchecked"/>
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:text="测试"
+                      android:gravity="center"
+                      android:id="@+id/time8"
+                      android:background="@drawable/redbox" android:contentDescription="unchecked"/>
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:text="测试"
+                      android:id="@+id/time9"
+                      android:gravity="center"
+                      android:background="@drawable/redbox" android:contentDescription="unchecked"/>
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:text="测试"
+                      android:gravity="center"
+                      android:id="@+id/time10"
+                      android:background="@drawable/redbox" android:contentDescription="unchecked"/>
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:text="测试"
+                      android:gravity="center"
+                      android:id="@+id/time11"
+                      android:background="@drawable/redbox" android:contentDescription="unchecked"/>
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:text="测试"
+                      android:gravity="center"
+                      android:id="@+id/time12"
+                      android:background="@drawable/redbox" android:contentDescription="unchecked"/>
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:text="测试"
+                      android:gravity="center"
+                      android:id="@+id/time13"
+                      android:background="@drawable/redbox" android:contentDescription="unchecked"/>
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:text="测试"
+                      android:gravity="center"
+                      android:id="@+id/time14"
+                      android:background="@drawable/redbox" android:contentDescription="unchecked"/>
+
+        </TableRow>
+        <TableRow
+                android:layout_height="match_parent"
+                android:layout_width="match_parent">
+
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="2"
+                      android:text="12:00-16:00"
+                      android:gravity="center"
+                      android:background="@drawable/whitebox" android:contentDescription="unchecked"/>
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:text="测试"
+                      android:gravity="center"
+                      android:id="@+id/time15"
+                      android:background="@drawable/redbox" android:contentDescription="unchecked"/>
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:text="测试"
+                      android:id="@+id/time16"
+                      android:gravity="center"
+                      android:background="@drawable/redbox" android:contentDescription="unchecked"/>
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:text="测试"
+                      android:gravity="center"
+                      android:id="@+id/time17"
+                      android:background="@drawable/redbox" android:contentDescription="unchecked"/>
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:text="测试"
+                      android:gravity="center"
+                      android:id="@+id/time18"
+                      android:background="@drawable/redbox" android:contentDescription="unchecked"/>
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:text="测试"
+                      android:gravity="center"
+                      android:id="@+id/time19"
+                      android:background="@drawable/redbox" android:contentDescription="unchecked"/>
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:text="测试"
+                      android:gravity="center"
+                      android:id="@+id/time20"
+                      android:background="@drawable/redbox" android:contentDescription="unchecked"/>
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:text="测试"
+                      android:gravity="center"
+                      android:id="@+id/time21"
+                      android:background="@drawable/redbox" android:contentDescription="unchecked"/>
+
+        </TableRow>
+        <TableRow
+                android:layout_height="match_parent"
+                android:layout_width="match_parent">
+
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="2"
+                      android:text="16:00-18:00"
+                      android:gravity="center"
+                      android:background="@drawable/whitebox" android:contentDescription="unchecked"/>
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:text="测试"
+                      android:gravity="center"
+                      android:id="@+id/time22"
+                      android:background="@drawable/redbox" android:contentDescription="unchecked"/>
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:text="测试"
+                      android:id="@+id/time23"
+                      android:gravity="center"
+                      android:background="@drawable/redbox" android:contentDescription="unchecked"/>
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:text="测试"
+                      android:gravity="center"
+                      android:id="@+id/time24"
+                      android:background="@drawable/redbox" android:contentDescription="unchecked"/>
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:text="测试"
+                      android:gravity="center"
+                      android:id="@+id/time25"
+                      android:background="@drawable/redbox" android:contentDescription="unchecked"/>
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:text="测试"
+                      android:gravity="center"
+                      android:id="@+id/time26"
+                      android:background="@drawable/redbox" android:contentDescription="unchecked"/>
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:text="测试"
+                      android:gravity="center"
+                      android:id="@+id/time27"
+                      android:background="@drawable/redbox" android:contentDescription="unchecked"/>
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:text="测试"
+                      android:gravity="center"
+                      android:id="@+id/time28"
+                      android:background="@drawable/redbox" android:contentDescription="unchecked"/>
+
+        </TableRow>
+        <TableRow
+                android:layout_height="match_parent"
+                android:layout_width="match_parent">
+
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="2"
+                      android:text="18:00-20:00"
+                      android:gravity="center"
+                      android:background="@drawable/whitebox" android:contentDescription="unchecked"/>
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:text="测试"
+                      android:gravity="center"
+                      android:id="@+id/time29"
+                      android:background="@drawable/redbox" android:contentDescription="unchecked"/>
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:text="测试"
+                      android:id="@+id/time30"
+                      android:gravity="center"
+                      android:background="@drawable/redbox" android:contentDescription="unchecked"/>
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:text="测试"
+                      android:gravity="center"
+                      android:id="@+id/time31"
+                      android:background="@drawable/redbox" android:contentDescription="unchecked"/>
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:text="测试"
+                      android:gravity="center"
+                      android:id="@+id/time32"
+                      android:background="@drawable/redbox" android:contentDescription="unchecked"/>
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:text="测试"
+                      android:gravity="center"
+                      android:id="@+id/time33"
+                      android:background="@drawable/redbox" android:contentDescription="unchecked"/>
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:text="测试"
+                      android:gravity="center"
+                      android:id="@+id/time34"
+                      android:background="@drawable/redbox" android:contentDescription="unchecked"/>
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:text="测试"
+                      android:gravity="center"
+                      android:id="@+id/time35"
+                      android:background="@drawable/redbox" android:contentDescription="unchecked"/>
+
+        </TableRow>
+        <TableRow
+                android:layout_height="match_parent"
+                android:layout_width="match_parent">
+
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="2"
+                      android:text="20:00-22:00"
+                      android:gravity="center"
+                      android:background="@drawable/whitebox" android:contentDescription="unchecked"/>
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:text="测试"
+                      android:gravity="center"
+                      android:id="@+id/time36"
+                      android:background="@drawable/redbox" android:contentDescription="unchecked"/>
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:text="测试"
+                      android:id="@+id/time37"
+                      android:gravity="center"
+                      android:background="@drawable/redbox" android:contentDescription="unchecked"/>
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:text="测试"
+                      android:gravity="center"
+                      android:id="@+id/time38"
+                      android:background="@drawable/redbox" android:contentDescription="unchecked"/>
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:text="测试"
+                      android:gravity="center"
+                      android:id="@+id/time39"
+                      android:background="@drawable/redbox" android:contentDescription="unchecked"/>
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:text="测试"
+                      android:gravity="center"
+                      android:id="@+id/time40"
+                      android:background="@drawable/redbox" android:contentDescription="unchecked"/>
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:text="测试"
+                      android:gravity="center"
+                      android:id="@+id/time41"
+                      android:background="@drawable/redbox" android:contentDescription="unchecked"/>
+            <TextView android:layout_height="56dp"
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:text="测试"
+                      android:gravity="center"
+                      android:id="@+id/time42"
+                      android:background="@drawable/redbox"
+                       android:contentDescription="unchecked"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

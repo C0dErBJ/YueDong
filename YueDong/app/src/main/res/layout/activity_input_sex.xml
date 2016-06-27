@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context="com.yuedong.app.activity.InputNickNameSettingActivity"
+              android:background="@color/defaultBackgroud"
+              android:orientation="vertical">
+
+    <include
+            android:layout_height="56dp"
+            android:layout_width="match_parent"
+            layout="@layout/layout_title"
+            android:id="@+id/nicknametitle"/>
+
+    <View
+            android:background="@color/black2"
+            android:layout_width="fill_parent"
+            android:layout_height="48px"
+            android:id="@+id/divide"/>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@color/white"
+            android:orientation="horizontal">
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:id="@+id/tv_male"
+                android:text="男"
+                android:textSize="28sp"
+                android:gravity="center_vertical"
+                android:paddingLeft="8dp"
+        />
+        <Button android:layout_height="32dp"
+                android:layout_width="32dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/ic_check_circle_black_36dp"
+                android:id="@+id/btn_male"
+                android:layout_centerVertical="true"></Button>
+    </RelativeLayout>
+    <View
+            android:background="@color/black2"
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            />
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@color/white"
+            android:orientation="horizontal">
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:id="@+id/tv_female"
+                android:text="女"
+                android:textSize="28sp"
+                android:gravity="center_vertical"
+                android:paddingLeft="8dp"
+        />
+        <Button android:layout_height="32dp"
+                android:layout_width="32dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="8dp"
+                android:id="@+id/btn_female"
+                android:background="@drawable/ic_check_circle_36dp"
+                android:layout_centerVertical="true"></Button>
+    </RelativeLayout>
+
+
+</LinearLayout>

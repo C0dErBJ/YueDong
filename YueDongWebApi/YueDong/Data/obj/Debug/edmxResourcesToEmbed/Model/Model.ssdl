@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="YueDongModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="CommonPictures">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" />
+    <Property Name="Status" Type="int" />
+    <Property Name="FileData" Type="varbinary(max)" />
+    <Property Name="UserId" Type="uniqueidentifier" />
+  </EntityType>
+  <EntityType Name="CommonUsers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" />
+    <Property Name="UpdateTime" Type="datetime" />
+    <Property Name="OperationUser" Type="varchar" MaxLength="100" />
+    <Property Name="Status" Type="int" />
+    <Property Name="Version" Type="int" />
+    <Property Name="UserName" Type="varchar" MaxLength="50" />
+    <Property Name="Password" Type="varchar" MaxLength="100" />
+    <Property Name="NickName" Type="varchar" MaxLength="150" />
+    <Property Name="LoginTime" Type="datetime" />
+    <Property Name="Age" Type="int" />
+    <Property Name="Gender" Type="varchar" MaxLength="50" />
+    <Property Name="Hobby" Type="varchar" MaxLength="500" />
+    <Property Name="RecentLocation" Type="varchar" MaxLength="300" />
+  </EntityType>
+  <EntityType Name="FreeTimes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" />
+    <Property Name="UpdateTime" Type="datetime" />
+    <Property Name="OperationUser" Type="varchar" MaxLength="100" />
+    <Property Name="Status" Type="int" />
+    <Property Name="Version" Type="int" />
+    <Property Name="UserId" Type="uniqueidentifier" />
+    <Property Name="StartTime" Type="datetime" />
+    <Property Name="EndTime" Type="datetime" />
+    <Property Name="Week" Type="int" />
+  </EntityType>
+  <EntityType Name="Messages">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" />
+    <Property Name="Status" Type="int" />
+    <Property Name="FromWho" Type="uniqueidentifier" />
+    <Property Name="ToWho" Type="uniqueidentifier" />
+    <Property Name="Text" Type="varchar(max)" />
+    <Property Name="PicId" Type="uniqueidentifier" />
+    <Property Name="MessageBatch" Type="varchar" MaxLength="150" />
+  </EntityType>
+  <EntityType Name="SportRecords">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" />
+    <Property Name="UpdateTime" Type="datetime" />
+    <Property Name="OperationUser" Type="varchar" MaxLength="100" />
+    <Property Name="Status" Type="int" />
+    <Property Name="Version" Type="int" />
+    <Property Name="SportLastTime" Type="int" />
+    <Property Name="UserId" Type="uniqueidentifier" />
+  </EntityType>
+  <EntityType Name="Stadia">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" />
+    <Property Name="UpdateTime" Type="datetime" />
+    <Property Name="OperationUser" Type="varchar" MaxLength="100" />
+    <Property Name="Status" Type="int" />
+    <Property Name="Version" Type="int" />
+    <Property Name="Name" Type="varchar" MaxLength="150" />
+    <Property Name="Address" Type="varchar" MaxLength="100" />
+    <Property Name="OpenStartTime" Type="datetime" />
+    <Property Name="OpenEndTime" Type="datetime" />
+    <Property Name="Price" Type="varchar" MaxLength="250" />
+    <Property Name="Phone" Type="varchar" MaxLength="250" Nullable="false" />
+    <Property Name="Longitude" Type="float" Nullable="false" />
+    <Property Name="Latitude" Type="float" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="YueDongModelStoreContainer">
+    <EntitySet Name="CommonPictures" EntityType="Self.CommonPictures" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CommonUsers" EntityType="Self.CommonUsers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FreeTimes" EntityType="Self.FreeTimes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Messages" EntityType="Self.Messages" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SportRecords" EntityType="Self.SportRecords" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Stadia" EntityType="Self.Stadia" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

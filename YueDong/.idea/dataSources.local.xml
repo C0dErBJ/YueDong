@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="SQL Server (Microsoft) - YueDong@192.168.1.200" uuid="6d20c180-f827-4961-ad7b-5d803a26b0fb">
+      <secret-storage>master_key</secret-storage>
+      <user-name>sa</user-name>
+      <schema-pattern>master.*</schema-pattern>
+      <default-schemas>master.*</default-schemas>
+    </data-source>
+  </component>
+</project>

@@ -1,0 +1,12 @@
+C:\YueDongProject\YueDong\Data\bin\Debug\Data.dll.config
+C:\YueDongProject\YueDong\Data\bin\Debug\Data.dll
+C:\YueDongProject\YueDong\Data\bin\Debug\Data.pdb
+C:\YueDongProject\YueDong\Data\bin\Debug\EntityFramework.dll
+C:\YueDongProject\YueDong\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\YueDongProject\YueDong\Data\bin\Debug\EntityFramework.xml
+C:\YueDongProject\YueDong\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\YueDongProject\YueDong\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+C:\YueDongProject\YueDong\Data\obj\Debug\Data.dll
+C:\YueDongProject\YueDong\Data\obj\Debug\Data.pdb
+C:\YueDongProject\YueDong\Data\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\YueDongProject\YueDong\Data\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll

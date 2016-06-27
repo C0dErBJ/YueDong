@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context="com.yuedong.app.activity.InputNickNameSettingActivity"
+              android:background="@color/defaultBackgroud"
+              android:orientation="vertical">
+
+    <include
+            android:layout_height="56dp"
+            android:layout_width="match_parent"
+            layout="@layout/layout_title"
+            android:id="@+id/nicknametitle"/>
+
+    <View
+            android:background="@color/black2"
+            android:layout_width="fill_parent"
+            android:layout_height="48px"
+            android:id="@+id/divide"/>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:background="@color/white"
+            android:orientation="horizontal">
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="128dp"
+                android:id="@+id/hobbyinput"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="8dp"
+                android:background="@color/white"
+        />
+        <Button android:layout_height="32dp"
+                android:layout_width="32dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/ic_highlight_off_black_36dp"
+                android:id="@+id/hobbyClear"
+                android:layout_centerVertical="true"></Button>
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,98 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.yuedong.app.activity.StadiumActivity"
+                android:background="@color/defaultBackgroud">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="56dp"
+                  android:background="@color/darkPrimaryColor"
+                  android:orientation="horizontal"
+                  android:id="@+id/titlebar">
+        <ImageView
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:background="@drawable/ic_code_black_36dp"
+                android:id="@+id/back"
+                android:clickable="true"
+        />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:id="@+id/title"
+                android:text="场馆信息"
+                android:gravity="center"
+                android:textColor="@color/text"
+                android:textSize="20sp"
+        />
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/titlebar"
+            android:orientation="vertical"
+            android:paddingLeft="24dp"
+            android:paddingTop="24dp">
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="36dp"
+                  android:text="第一运动馆"
+                  android:id="@+id/name"
+                  android:textSize="24dp"/>
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="36dp"
+                      android:orientation="horizontal">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="36dp"
+                      android:text="场馆地址:    "
+                      android:textSize="20dp"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="36dp"
+                      android:text="上海市"
+                      android:id="@+id/address"
+                      android:textSize="20dp"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="36dp"
+                      android:orientation="horizontal">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="36dp"
+                      android:text="营业时间:    "
+                      android:textSize="20dp"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="36dp"
+                      android:text="9:00~22:00"
+                      android:id="@+id/worktime"
+                      android:textSize="20dp"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="36dp"
+                      android:orientation="horizontal">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="36dp"
+                      android:text="价格:    "
+                      android:textSize="20dp"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="36dp"
+                      android:text="200元"
+                      android:id="@+id/price"
+                      android:textSize="20dp"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="36dp"
+                      android:orientation="horizontal">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="36dp"
+                      android:text="联系电话:    "
+                      android:textSize="20dp"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="36dp"
+                      android:id="@+id/phone"
+                      android:text="18500000000"
+                      android:textSize="20dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

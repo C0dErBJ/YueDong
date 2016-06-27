@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="@color/defaultBackgroud"
+                android:paddingLeft="8dp">
+    <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_centerVertical="true"
+            android:id="@+id/friavator"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="56dp"
+            android:layout_marginLeft="56dp"
+            android:text="测试"
+            android:textColor="@color/primaryText"
+            android:textSize="18sp"
+            android:id="@+id/frinickname"
+            android:layout_toRightOf="@id/mesavator"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_vertical"/>
+    <TextView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:id="@+id/liaotian"
+            android:layout_alignParentRight="true"
+            android:text="聊天"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:background="@color/primaryColor"
+    />
+
+</RelativeLayout>

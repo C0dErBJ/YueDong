@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">悦动</string>
+    <string name="title_activity_regist">RegistActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_location">LocationActivity</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_stadium">StadiumActivity</string>
+    <string name="title_activity_personal_detail">PersonalDetailActivity</string>
+    <string name="title_activity_avator">AvatorActivity</string>
+    <string name="title_activity_nick_name_setting">NickNameSettingActivity</string>
+    <string name="title_activity_input_age">InputAgeActivity</string>
+    <string name="title_activity_input_sex">InputSexActivity</string>
+    <string name="title_activity_input_hobby">InputHobbyActivity</string>
+    <string name="title_activity_input_space_time">InputSpaceTimeActivity</string>
+    <string name="title_activity_message">MessageActivity</string>
+    <string name="title_activity_search_friend">SearchFriendActivity</string>
+
+
+</resources>
